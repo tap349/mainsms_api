@@ -12,7 +12,7 @@ module MainsmsApi
     end
 
     def self.setup(options)
-      @settings ||= Hashie::Mash.new(options)
+      @settings = Hashie::Mash.new(options)
     end
   end
 end
